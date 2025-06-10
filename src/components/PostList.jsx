@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 function PostList({ posts }) {
   const navigate = useNavigate();
 
+  
   return (
     <List>
       {posts.map((post) => (

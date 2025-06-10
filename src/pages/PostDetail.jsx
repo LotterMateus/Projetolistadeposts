@@ -13,6 +13,7 @@ function PostDetail() {
       .then(data => {
         setPost(data);
         setLoading(false);
+
       });
   }, [id]);
 
@@ -28,3 +29,4 @@ function PostDetail() {
 }
 
 export default PostDetail;
+
