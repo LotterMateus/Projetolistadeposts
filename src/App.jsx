@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Posts from './pages/Posts';
 import PostDetail from './pages/PostDetail';
-
+// 🚀 Rota principal - Renderiza a lista de posts
 function App() {
   return (
     <Routes>
